@@ -27,7 +27,7 @@ let clima={
     document.querySelector(".viento").innerText =
       "Viento: " + speed + " km/h";
       document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1920x900/?" + name + "')";
+      "url('https://source.unsplash.com/1920x720/?" + name + "')";
 },
     busqueda:function(){
       this.appiClima(document.querySelector(".buscador-barra").value)
