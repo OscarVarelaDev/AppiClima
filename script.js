@@ -1,5 +1,4 @@
 
-
 let clima={
   
    appiClima:function(ciudad) {
@@ -28,7 +27,7 @@ let clima={
     document.querySelector(".viento").innerText =
       "Viento: " + speed + " km/h";
       document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1600x900/?" + name + "')";
+      "url('https://source.unsplash.com/1920x900/?" + name + "')";
 },
     busqueda:function(){
       this.appiClima(document.querySelector(".buscador-barra").value)
@@ -50,6 +49,5 @@ document
   });
 
 clima.appiClima("Mexico");
-
 
 
